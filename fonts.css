@@ -8,7 +8,7 @@
     url("./fonts/helvetica/Helvetica.woff2") format("woff2"),
     url("./fonts/helvetica/Helvetica.woff") format("woff"),
     url("./fonts/helvetica/Helvetica.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -36,7 +36,7 @@
     url("./fonts/helvetica/Helvetica-Bold.woff2") format("woff2"),
     url("./fonts/helvetica/Helvetica-Bold.woff") format("woff"),
     url("./fonts/helvetica/Helvetica-Bold.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }

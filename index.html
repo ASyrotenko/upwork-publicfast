@@ -4,17 +4,136 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Publicfast</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <title>PUBLICFAST</title>
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./fonts.css" />
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <p>Hello world</p>
+    <header class="header">
+      <div class="container">
+        <a class="header__logo" href="./index.html"
+          ><img src="./images/logo.svg" alt="Logo" width="25" height="25" />
+          Publicfast</a
+        >
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">For Influencer</a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+          </ul>
+        </nav>
+        <div class="btn__wrapper">
+          <button class="auth__btn" type="button">Login</button>
+          <button class="auth__btn" type="button">Sign Up</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="container">
+          <div class="banner__text-content">
+            <h2 class="banner__title">
+              <img src="./images/logo.svg" alt="Logo" width="44" height="44" />
+              Publicfast
+            </h2>
+            <p class="banner__greeting">
+              Welcome to <span class="banner__greeting--name">Publicfast!</span>
+            </p>
+            <p class="banner__call-to-act">Watch 5 video tour</p>
+          </div>
+          <div class="banner__video">
+            <iframe
+              class="banner__iframe"
+              width="262"
+              height="170"
+              src="https://www.youtube.com/embed/MSN-KHJ-oFs"
+              title="Meet Discovery by Publicfast"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="banner__info">
+            <ul class="banner__info-list">
+              <li class="banner__info-item">
+                <a href="#" class="banner__info-link">
+                  <svg width="36" height="21" aria-label="blog">
+                    <use
+                      class="banner__info-img"
+                      href="./images/banner/symbol-defs.svg#icon-blog"
+                    ></use>
+                  </svg>
+                  <p class="banner__info-discr">
+                    Learn more about influencer marketing
+                  </p>
+                  <p class="banner__info-text">
+                    Read our blog
+                    <svg width="5" height="8" aria-label="arrow">
+                      <use
+                        class="banner__info-arrow"
+                        href="./images/banner/symbol-defs.svg#icon-arrow"
+                      ></use>
+                    </svg></p
+                ></a>
+              </li>
+              <li class="banner__info-item">
+                <a href="#" class="banner__info-link">
+                  <svg width="34" height="28" aria-label="blog">
+                    <use
+                      class="banner__info-img"
+                      href="./images/banner/symbol-defs.svg#icon-team"
+                    ></use>
+                  </svg>
+                  <p class="banner__info-discr">Talk to the team</p>
+                  <p class="banner__info-text">
+                    Book a meeting
+                    <svg width="5" height="8" aria-label="arrow">
+                      <use
+                        class="banner__info-arrow"
+                        href="./images/banner/symbol-defs.svg#icon-arrow"
+                      ></use>
+                    </svg></p
+                ></a>
+              </li>
+              <li class="banner__info-item">
+                <a href="#" class="banner__info-link">
+                  <svg width="27" height="33" aria-label="blog">
+                    <use
+                      class="banner__info-img"
+                      href="./images/banner/symbol-defs.svg#icon-tutorial"
+                    ></use>
+                  </svg>
+                  <p class="banner__info-discr">Watch tutorial</p>
+                  <p class="banner__info-text">
+                    Publicfast TV
+                    <svg width="5" height="8" aria-label="arrow">
+                      <use
+                        class="banner__info-arrow"
+                        href="./images/banner/symbol-defs.svg#icon-arrow"
+                      ></use>
+                    </svg></p
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="banner__close-btn">
+            <svg width="20" height="20" aria-label="blog">
+              <use
+                class="banner__close-btn-img"
+                href="./images/banner/symbol-defs.svg#icon-close-btn"
+              ></use>
+            </svg>
+          </button>
+        </div>
+      </section>
+      <section class="hero"></section>
+    </main>
   </body>
 </html>
