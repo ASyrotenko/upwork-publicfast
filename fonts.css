@@ -1,0 +1,150 @@
+/* Helvetica */
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./fonts/helvetica/Helvetica.eot");
+  src: local("Helvetica"),
+    url("./fonts/helvetica/Helvetica.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/helvetica/Helvetica.woff2") format("woff2"),
+    url("./fonts/helvetica/Helvetica.woff") format("woff"),
+    url("./fonts/helvetica/Helvetica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./fonts/helvetica/Helvetica-Light.eot");
+  src: local("Helvetica Light"), local("Helvetica-Light"),
+    url("./fonts/helvetica/Helvetica-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/helvetica/Helvetica-Light.woff2") format("woff2"),
+    url("./fonts/helvetica/Helvetica-Light.woff") format("woff"),
+    url("./fonts/helvetica/Helvetica-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./fonts/helvetica/Helvetica-Bold.eot");
+  src: local("Helvetica Bold"), local("Helvetica-Bold"),
+    url("./fonts/helvetica/Helvetica-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/helvetica/Helvetica-Bold.woff2") format("woff2"),
+    url("./fonts/helvetica/Helvetica-Bold.woff") format("woff"),
+    url("./fonts/helvetica/Helvetica-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Montserrat */
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/montserrat/Montserrat-Light.eot");
+  src: local("Montserrat Light"), local("Montserrat-Light"),
+    url("./fonts/montserrat/Montserrat-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/montserrat/Montserrat-Light.woff2") format("woff2"),
+    url("./fonts/montserrat/Montserrat-Light.woff") format("woff"),
+    url("./fonts/montserrat/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/montserrat/Montserrat-Medium.eot");
+  src: local("Montserrat Medium"), local("Montserrat-Medium"),
+    url("./fonts/montserrat/Montserrat-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/montserrat/Montserrat-Medium.woff2") format("woff2"),
+    url("./fonts/montserrat/Montserrat-Medium.woff") format("woff"),
+    url("./fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/montserrat/Montserrat-SemiBold.eot");
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"),
+    url("./fonts/montserrat/Montserrat-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2"),
+    url("./fonts/montserrat/Montserrat-SemiBold.woff") format("woff"),
+    url("./fonts/montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Poppins */
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-Light.eot");
+  src: local("Poppins Light"), local("Poppins-Light"),
+    url("./fonts/poppins/Poppins-Light.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/poppins/Poppins-Light.woff2") format("woff2"),
+    url("./fonts/poppins/Poppins-Light.woff") format("woff"),
+    url("./fonts/poppins/Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-Regular.eot");
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url("./fonts/poppins/Poppins-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/poppins/Poppins-Regular.woff2") format("woff2"),
+    url("./fonts/poppins/Poppins-Regular.woff") format("woff"),
+    url("./fonts/poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-Medium.eot");
+  src: local("Poppins Medium"), local("Poppins-Medium"),
+    url("./fonts/poppins/Poppins-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/poppins/Poppins-Medium.woff2") format("woff2"),
+    url("./fonts/poppins/Poppins-Medium.woff") format("woff"),
+    url("./fonts/poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-SemiBold.eot");
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+    url("./fonts/poppins/Poppins-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/poppins/Poppins-SemiBold.woff2") format("woff2"),
+    url("./fonts/poppins/Poppins-SemiBold.woff") format("woff"),
+    url("./fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Proxima Nova */
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/proxima-nova/ProximaNova-Bold.eot");
+  src: local("Proxima Nova Bold"), local("ProximaNova-Bold"),
+    url("./fonts/proxima-nova/ProximaNova-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/proxima-nova/ProximaNova-Bold.woff2") format("woff2"),
+    url("./fonts/proxima-nova/ProximaNova-Bold.woff") format("woff"),
+    url("./fonts/proxima-nova/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
