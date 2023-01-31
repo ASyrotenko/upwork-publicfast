@@ -697,7 +697,6 @@ button {
 
 @media screen and (max-width: 939px) {
   .hero__card-btn {
-    width: 273px;
     height: 41px;
     font-size: 13px;
   }
