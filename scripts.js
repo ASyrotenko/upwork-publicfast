@@ -1,6 +1,6 @@
 // Hide banner
 
-const bannerSection = document.querySelector(".banner");
+const bannerSection = document.querySelector(".pop-ap__container");
 const bannerCloseBtn = document.querySelector(".banner__close-btn");
 
 const closeBanner = () => {

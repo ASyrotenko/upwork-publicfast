@@ -179,9 +179,13 @@ button {
 /* Banner */
 
 .banner > .container {
+  max-width: 1410px;
+}
+
+.pop-ap__container {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   row-gap: 20px;
   justify-content: center;
@@ -189,6 +193,12 @@ button {
   padding: 51px 20px 46px;
   border-radius: 7px;
   background-color: var(--bg-banner-color);
+}
+
+@media screen and (max-width: 767px) {
+  .pop-ap__container {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 627px) {
@@ -320,16 +330,40 @@ button {
   fill: currentColor;
 }
 
+.header__mobile-logo {
+  text-align: center;
+}
+
+.header__mobile-logo-img {
+  margin: 0 auto;
+}
+
+.mobile__btn {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile__btn,
+  .header__mobile-logo {
+    display: none;
+  }
+}
+
 /* Hero */
 
 .hero {
   padding: 56px 0 70px 0;
 }
 
+@media screen and (max-width: 767px) {
+  .hero {
+    padding: 49px 0 10px 0;
+  }
+}
+
 .hero > .container {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
 }
 
 @media screen and (min-width: 940px) {
@@ -516,6 +550,10 @@ button {
   }
 }
 
+.mobile__btn--hero {
+  margin-top: 26px;
+}
+
 /* FAQ */
 
 .faq__container {
@@ -600,10 +638,31 @@ button {
   margin-top: 8px;
   padding-left: 10px;
 }
+@media screen and (max-width: 767px) {
+  .hero__card-wrap {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 939px) {
   .hero__card-wrap {
     margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 767px) {
+  .hero__card-wrap--mobile {
+    position: static;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero__card-wrap--mobile {
+    display: none;
   }
 }
 
@@ -644,6 +703,18 @@ button {
   background-color: #fd6124;
 }
 
+.hero__card-btn__mobile {
+  margin-top: 0;
+}
+
+.hero__card-btn--mobile {
+  margin-top: 0;
+}
+
+.mobile__btn--banner {
+  margin-top: 50px;
+}
+
 .hero__card-title {
   margin-top: 27px;
   text-align: center;
@@ -665,6 +736,7 @@ button {
 }
 
 .hero__card-item {
+  display: flex;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.17;
@@ -673,6 +745,10 @@ button {
 
 .hero__card-item:not(:first-child) {
   margin-top: 10px;
+}
+
+.hero__card-item-text {
+  display: inline-block;
 }
 
 .hero__card-symbol {
@@ -703,6 +779,12 @@ button {
 
 .footer {
   padding: 60px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 45px 0;
+  }
 }
 
 .footer > .container {
