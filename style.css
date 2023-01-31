@@ -67,7 +67,7 @@ button {
   background-color: transparent;
 }
 
-.hidden {
+/* .hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -79,7 +79,8 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
   opacity: 0;
-}
+  display: none;
+} */
 
 .container {
   /* outline: 1px solid tomato; */
@@ -193,6 +194,10 @@ button {
   padding: 51px 20px 46px;
   border-radius: 7px;
   background-color: var(--bg-banner-color);
+}
+
+.pop-ap__container.hidden {
+  display: none;
 }
 
 @media screen and (max-width: 767px) {
